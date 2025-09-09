@@ -8,6 +8,8 @@ The setup ensures that **every code commit to GitHub triggers a build, pushes a 
 
 ## 📌 Architecture Overview
 
+![alt text](cicd_ecs_architecture.png)
+
 ### Workflow
 
 1. **Developer** → Pushes code to GitHub.
