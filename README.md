@@ -164,26 +164,3 @@ After pipeline success, ECS Service updates with the **new Docker image** from E
 * **ALB** → Charged hourly + per request.
 
 💡 Tip: For demo/testing, keep only **1 running task** and delete unused images in ECR.
-
----
-
-## 🏗️ Future Improvements
-
-* Add **ECS Auto Scaling** based on CPU/memory.
-* Use **Secrets Manager** for DB/API keys.
-* Add **CloudFront** + HTTPS with ACM for SSL.
-* Implement **Blue/Green Deployments** for zero downtime.
-
----
-
-## 📜 License
-
-This project is for **educational and demo purposes**.
-
----
-
-✅ With this pipeline, your app is **fully automated from GitHub push → ECS deployment** 🎉
-
----
-
-Would you like me to also add a **diagram (ASCII or generated)** of the architecture in this README to make it more visual?
